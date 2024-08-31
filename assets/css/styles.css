@@ -1,3 +1,6 @@
+/* Importando a fonte Roboto para o site */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
 	margin: 0;
 	padding:0;
@@ -22,7 +25,7 @@ header > div > img{
 header > div > a{
 	text-decoration: none;
 	color: black;
-	font-family: "Verdana";
+	font-family: "Verdana", "sans-serif", "Arial";
 	font-weight: bold;
 
 	text-align: center;
@@ -68,7 +71,7 @@ nav > ul > li{
 }
 
 nav > ul > li > a{
-
+	font-family: "Roboto", "Verdana", "sans-serif";
 	text-decoration: none;
 	color: white;
 }
@@ -86,13 +89,13 @@ section{
 }
 
 section.sobre{
-	background-color: lightgray;
+	background-color: white;
 }
 
 
 h1{
 	text-align: center;
-	font-family: "Arial";
+	font-family: "Arial","sans-serif";
 	margin-bottom: 50px;
 	font-size: 24px;
 }
@@ -104,15 +107,17 @@ h1{
 p{
 	font-size: 14px;
 	text-align: center;
+	font-family: "Roboto", "Arial", "verdana";
 }
 
 /* Seção Produtos */
-section > h2 {
+h2, h3, h4, h5, h6 {
 	text-align: center;
+	font-family: "Roboto", "Arial", "sans-serif";
 }
 
 section > div.produtos-grid{
-	background-color: #00d1f8;
+	background-color: white;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 }
@@ -131,20 +136,51 @@ section div div img {
 }
 
 /* Página Sobre Nós*/
-.sobre-nos img{
+.sobre_nos{
+	background-color: white;
+}
+
+.sobre_nos img{
 	width: 400px;
 	margin: 0 25%;
 }
+
+/* Página Contato */
+.page_contato{
+	background-color: white;
+}
+
+.page_contato h2, .page_contato h3{
+	color: grey;
+}
+
+
+#subtitulo_endereço{
+	text-align: center;
+	color: grey;
+}
+
+.mapa_farmacia{
+	margin: 0 25%;
+}
+
+
 
 /* Rodapé */
 footer{
 	background-color: darkgrey;
 }
 
-footer > h3{
+footer h3{
 	text-align: center;
 }
 
-footer > img{
+footer > div{
+	width: 100vw;
+	align-items: center;
+	text-align: center;
+}
+
+footer img{
 	width: 20px;
 }
