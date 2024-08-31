@@ -100,8 +100,9 @@ h1{
 	font-size: 24px;
 }
 
-.sobre img{
+section.sobre img{
 	margin: 0 25%;
+	width: 50vw;
 }
 
 p{
@@ -116,10 +117,11 @@ h2, h3, h4, h5, h6 {
 	font-family: "Roboto", "Arial", "sans-serif";
 }
 
+
 section > div.produtos-grid{
 	background-color: white;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
 }
 
 section > div > div{
@@ -129,7 +131,7 @@ section > div > div{
 }
 
 
-section div div img {
+section.produtos div.produtos-grid div img {
 	width: 100px;
 	border-radius: 20px;
 	margin-right: 10px;
@@ -141,8 +143,8 @@ section div div img {
 }
 
 .sobre_nos img{
-	width: 400px;
-	margin: 0 25%;
+	margin: 0px 25%;
+	width: 50vw;
 }
 
 /* Página Contato */
@@ -160,8 +162,10 @@ section div div img {
 	color: grey;
 }
 
-.mapa_farmacia{
-	margin: 0 25%;
+section.page_contato .mapa_farmacia{
+	margin: 0 10%;
+	width: 80vw;
+	height: 300px;
 }
 
 
@@ -183,4 +187,17 @@ footer > div{
 
 footer img{
 	width: 20px;
+}
+
+/* Responsividade */
+
+@media screen and (min-width: 1024px) {
+/* Seção Produtos */
+section div.produtos-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
 }
