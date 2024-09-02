@@ -282,4 +282,10 @@ footer img{
 	nav  ul  li  a:hover{
 		color: grey;
 	}
+
+	/*Imagem página inicial */
+	section.sobre img{
+		margin: 0 35%;
+		width: 30vw;
+}
 }
