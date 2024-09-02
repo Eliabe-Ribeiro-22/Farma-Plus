@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Foi criado um site de divulgação para um farmácia, com o nome fictício Farma Plus, onde o usuário visualiza os produtos existentes da farmácia, uma página com a história da farmácia e uma página para entrar em contato com a empresa. Além da logo do site, um cabeçalho com botões de navegação, e um rodapé.
+Foi criado um site de divulgação para um farmácia, com o nome fictício Farma Plus, onde o usuário visualiza os produtos existentes da farmácia, uma página com a história da farmácia e uma página para entrar em contato com a empresa. Além da logo do site, um cabeçalho com botões de navegação, e um rodapé no final do site.
 
 ## Fotos do site pronto
 
