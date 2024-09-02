@@ -10,19 +10,21 @@ Página Inicial
 ![página inicial](imagem)
 
 Seção Produtos da Farmácia
-![]()
+![seção produtos 1](./assets/img/site-pronto/section-produtos-1.png)
+![seção produtos 2](./assets/img/site-pronto/section-produtos-2.png)
+![seção produtos 3](./assets/img/site-pronto/section-produtos-3.png)
 
 Página Sobre Nós
 ![]()
 
 Página Contato
-![]()
+![página de contato]()
 
 Menu de Navegação
-![cabeçalho do site](imagem)
+![cabeçalho do site](./assets/img/site-pronto/site-header.png)
 
 Rodpé do Site
-![]()
+![rodapé]()
 
 
 
