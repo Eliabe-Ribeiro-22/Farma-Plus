@@ -1,5 +1,4 @@
 //Abre e fecha o menu quando clicar no icone
-alert("Entrou JS")
 const nav = document.querySelector('header nav');
 const toggle = document.querySelectorAll('nav .toggle');
 

@@ -117,6 +117,16 @@ nav.show .menu ul{
   display: grid;
 }
 
+.hamburguer{
+	width: 100%;
+	display: flex;
+}
+
+.icon-menu{
+	align-content: center;
+	margin-left: 80%;
+
+}
 /* abrir Menu */
 
 .toggle{
@@ -268,11 +278,7 @@ footer img{
 	nav .icon-menu{
 	    display:none;
   	}
-
-  	nav ul li a{
-	color: white;
-	}
-
+  	
 	nav  ul  li  a:hover{
 		color: grey;
 	}
