@@ -37,7 +37,12 @@ header{
 	display: flex;
 	background-color: darkgrey;
 	height: 100px;
+  	z-index: 100;
+}
 
+.grid{
+  display: grid;
+  gap: 2.25rem;
 }
 
 nav{
@@ -50,7 +55,7 @@ nav{
 
 }
 
-nav > ul{
+nav  ul{
 	display: flex;
 	align-items: center;
 
@@ -63,23 +68,74 @@ nav > ul{
 	padding: 3px;
 }
 
-nav > ul > li{
+nav ul li{
 	margin-left: 20px;
 	margin-right: 20px;
 
 	
 }
 
-nav > ul > li > a{
+nav ul li a{
 	font-family: "Roboto", "Verdana", "sans-serif";
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
-nav > ul > li > a:hover{
-	color: grey;
+nav  ul  li  a:hover{
+	color: blue;
 }
 
+/*responsivo*/
+nav ul li{
+	text-align: center;
+}
+nav .menu ul{
+  display: none;
+}
+
+nav .menu{
+  opacity: 0;
+  visibility: hidden;
+  left: 12rem;
+  transition: 0.3s;
+}
+
+nav.show .menu{
+  opacity:1;
+  visibility: visible;
+  background: #fff9f9;
+  height: 100vh; 
+  width: 100vw;
+  position:fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-content: center;
+}
+
+nav.show .menu ul{
+  display: grid;
+}
+
+/* abrir Menu */
+
+.toggle{
+  font-size: 2rem;
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+
+nav .icon-x{
+  visibility: hidden;
+  opacity: 0;
+  position:absolute;
+  right: 1.5rem;
+}
+
+nav.show div.icon-x{
+  visibility: visible;
+  opacity:1;
+}
 
 /* CONTEÚDO DO SITE*/
 
@@ -193,11 +249,31 @@ footer img{
 
 @media screen and (min-width: 1024px) {
 /* Seção Produtos */
-section div.produtos-grid{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
+	section div.produtos-grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 
+	/* Cabeçalho */
+	nav .menu{
+    	opacity:1;
+    	visibility:visible;
+  	}
 
+	nav .menu ul{
+    	display:flex;
+    	gap: 2rem;
+  	}
 
+	nav .icon-menu{
+	    display:none;
+  	}
+
+  	nav ul li a{
+	color: white;
+	}
+
+	nav  ul  li  a:hover{
+		color: grey;
+	}
 }
