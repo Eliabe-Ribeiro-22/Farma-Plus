@@ -1,0 +1,9 @@
+/* Página Sobre Nós*/
+#sobre_nos{
+	background-color: white;
+}
+
+#sobre_nos img{
+	margin: 0px 25%;
+	width: 50vw;
+}

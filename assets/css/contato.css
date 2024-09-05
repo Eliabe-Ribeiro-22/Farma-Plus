@@ -1,0 +1,20 @@
+/* Página Contato */
+.page_contato{
+	background-color: white;
+}
+
+.page_contato h2, .page_contato h3{
+	color: grey;
+}
+
+
+#subtitulo_endereço{
+	text-align: center;
+	color: grey;
+}
+
+section.page_contato .mapa_farmacia{
+	margin: 0 10%;
+	width: 80vw;
+	height: 300px;
+}
