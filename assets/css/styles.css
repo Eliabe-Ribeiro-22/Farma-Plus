@@ -6,6 +6,14 @@
 /* Cabeçalho do Site e logo do site*/
 @import "./nav.css";
 
+/* Seção da página inicial Sobre*/
+
+@import "./section_sobre.css";
+
+@import "./section_produtos.css";
+
+
+
 /* Página Sobre Nós */
 @import "./sobre_nos.css";
 
@@ -26,60 +34,6 @@ body{
 }
 
 /* CONTEÚDO DO SITE*/
-
-/* Seção Sobre */
-section{
-	margin: 50px 0px;
-}
-
-section.sobre{
-	background-color: white;
-}
-
-
-h1{
-	text-align: center;
-	font-family: "Arial","sans-serif";
-	margin-bottom: 50px;
-	font-size: 24px;
-}
-
-section.sobre img{
-	margin: 0 25%;
-	width: 50vw;
-}
-
-p{
-	font-size: 14px;
-	text-align: center;
-	font-family: "Roboto", "Arial", "verdana";
-}
-
-/* Seção Produtos */
-h2, h3, h4, h5, h6 {
-	text-align: center;
-	font-family: "Roboto", "Arial", "sans-serif";
-}
-
-
-section > div#produtos-grid{
-	background-color: white;
-	display: grid;
-	grid-template-columns: 1fr;
-}
-
-section > div > div{
-	display: flex;
-	align-items: center;
-	margin: 15px;
-}
-
-
-section.produtos div#produtos-grid div img {
-	width: 100px;
-	border-radius: 20px;
-	margin-right: 10px;
-}
 
 /* Responsividade */
 @media screen and (min-width: 1024px) {
