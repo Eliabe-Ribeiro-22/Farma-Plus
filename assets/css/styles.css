@@ -1,18 +1,26 @@
 /* Importando a fonte Roboto para o site */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* importando em partes o CSS do site */
+/* importando em módulos o código CSS do site */
 
 /* Cabeçalho do Site e logo do site*/
 @import "./nav.css";
 
-/* Seção da página inicial Sobre*/
 
+
+/* Seção da página inicial Sobre*/
 @import "./section_sobre.css";
 
+/* Seção da página inicial Produtos*/
 @import "./section_produtos.css";
 
 
+
+/* Rodapé do site */
+@import "./footer.css";
+
+
+/* Página Externas*/
 
 /* Página Sobre Nós */
 @import "./sobre_nos.css";
@@ -20,9 +28,7 @@
 /* Página Entre em Contato */
 @import "./contato.css";
 
-/* Rodapé do site */
-@import "./footer.css";
-
+/* Globais */
 *{
 	margin: 0;
 	padding:0;
@@ -33,17 +39,9 @@ body{
 	background-color: lightblue;
 }
 
-/* CONTEÚDO DO SITE*/
 
-/* Responsividade */
+/* Responsividade geral do site */
 @media screen and (min-width: 1024px) {
-
-/* Seção Produtos */
-	section div#produtos-grid{
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-	}
-
 	/* Cabeçalho */
 	nav .menu{
     	opacity:1;
@@ -68,4 +66,11 @@ body{
 		margin: 0 35%;
 		width: 30vw;
 	}
+
+	/* Seção Produtos */
+	section div#produtos-grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
 }
