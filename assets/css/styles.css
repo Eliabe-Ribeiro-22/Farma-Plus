@@ -1,0 +1,32 @@
+/* Cabeçalho do site */
+@import "./nav.css";
+
+/* Globais */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* Página Inicial */
+ /* Sobre */
+#seção_sobre{
+	margin-top: 50px;
+	background: grey;
+}
+
+#seção_sobre h1{
+	text-align: center;
+}
+
+#seção_sobre img{
+	width: 30vw;
+	margin: 0px 35%;
+}
+
+#seção_sobre p{
+	text-align: center;
+}	
+
+ /* Produtos */
