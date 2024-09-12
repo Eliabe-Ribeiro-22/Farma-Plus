@@ -7,17 +7,31 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	background: lightblue;
+}
 
+header .grid{
+	display: grid;
+	gap: 2.25rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	font-family: "Verdana", "Arial", "sans-serif";
+}
 
 /* Página Inicial */
  /* Sobre */
 #seção_sobre{
-	margin-top: 50px;
+	margin: 50px 0px;
 	background: grey;
 }
 
 #seção_sobre h1{
 	text-align: center;
+	margin-bottom: 20px;
+	padding: 50px;
 }
 
 #seção_sobre img{
@@ -30,3 +44,29 @@
 }	
 
  /* Produtos */
+#produtos{
+	margin-top: 50px;
+}
+
+#produtos h2{
+	margin-bottom: 50px;
+}
+
+ #produtos div img{
+ 	width: 10vw;
+ 	border-radius: 20px;
+	margin-right: 10px;
+ }
+
+#grid_produtos{
+	background: lightcyan;
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+ }
+
+section > div > div{
+	display: flex;
+	align-items: center;
+	margin: 15px;
+}
+

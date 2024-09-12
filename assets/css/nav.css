@@ -34,11 +34,6 @@ nav{
 }
 
 
-.grid{
-	display: grid;
-	gap: 2.25rem;
-}
-
 .hamburguer{
 	display: none;
 	visibility: hidden;
