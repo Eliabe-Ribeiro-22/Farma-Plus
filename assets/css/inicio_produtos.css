@@ -1,0 +1,28 @@
+/* Página Inicial */
+ /* Produtos */
+#produtos{
+	margin-top: 50px;
+}
+
+#produtos h2{
+	margin-bottom: 50px;
+}
+
+ #produtos div img{
+ 	width: 10vw;
+ 	border-radius: 20px;
+	margin-right: 10px;
+ }
+
+#grid_produtos{
+	background: lightcyan;
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+ }
+
+section > div > div{
+	display: flex;
+	align-items: center;
+	margin: 15px;
+}
+

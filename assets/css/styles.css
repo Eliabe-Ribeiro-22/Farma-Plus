@@ -1,12 +1,21 @@
 /* Cabeçalho do site */
 @import "./nav.css";
 
+/* página inicial*/
+/* Seção sobre */
+@import "./inicio_sobre.css";
+
+/* Seção produtos*/
+@import "./inicio_produtos.css";
+
+
 /* Globais */
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body{
 	background: lightblue;
 }
@@ -21,52 +30,19 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Verdana", "Arial", "sans-serif";
 }
 
-/* Página Inicial */
- /* Sobre */
-#seção_sobre{
-	margin: 50px 0px;
-	background: grey;
-}
+/* Footer */
+footer{
+	background: darkgrey;
+	width: 100vw;
 
-#seção_sobre h1{
-	text-align: center;
-	margin-bottom: 20px;
-	padding: 50px;
-}
-
-#seção_sobre img{
-	width: 30vw;
-	margin: 0px 35%;
-}
-
-#seção_sobre p{
-	text-align: center;
-}	
-
- /* Produtos */
-#produtos{
-	margin-top: 50px;
-}
-
-#produtos h2{
-	margin-bottom: 50px;
-}
-
- #produtos div img{
- 	width: 10vw;
- 	border-radius: 20px;
-	margin-right: 10px;
- }
-
-#grid_produtos{
-	background: lightcyan;
- 	display: grid;
- 	grid-template-columns: 1fr 1fr 1fr;
- }
-
-section > div > div{
-	display: flex;
 	align-items: center;
-	margin: 15px;
 }
 
+footer p{
+	text-align: center;
+	align-items: center;
+}
+
+footer img{
+	width: 3rem;
+}
