@@ -8,7 +8,10 @@
 /* Seção produtos*/
 @import "./inicio_produtos.css";
 
+/* Rodapé do site */
+@import "./footer.css";
 
+@import "pagina_historia.css";
 /* Globais */
 *{
 	margin: 0;
@@ -28,21 +31,4 @@ header .grid{
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	font-family: "Verdana", "Arial", "sans-serif";
-}
-
-/* Footer */
-footer{
-	background: darkgrey;
-	width: 100vw;
-
-	align-items: center;
-}
-
-footer p{
-	text-align: center;
-	align-items: center;
-}
-
-footer img{
-	width: 3rem;
 }

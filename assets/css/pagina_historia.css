@@ -1,0 +1,33 @@
+section#pagina_historia p{
+	text-align: center;
+	font-family: "Verdana";
+	font-size: 1rem;
+}
+
+section#pagina_historia img{
+	width: 90vw;
+	height: 10rem;
+	margin: 0px 5%;
+
+	border: 3px solid grey;
+	border-radius: 10%;
+}
+
+@media screen and (min-width: 800px){
+section#pagina_historia img{
+	width: 60vw;
+	height: 15rem;
+	margin: 0px 20%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	section#pagina_historia img{
+	width: 50vw;
+	height: 20rem;
+	margin: 0px 25%;
+
+	border: 15px solid grey;
+	border-radius: 10%;
+	}
+}

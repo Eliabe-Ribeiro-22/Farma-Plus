@@ -1,0 +1,16 @@
+/* Footer */
+footer{
+	background: darkgrey;
+	width: 100vw;
+
+	align-items: center;
+}
+
+footer p{
+	text-align: center;
+	align-items: center;
+}
+
+footer img{
+	width: 3rem;
+}
