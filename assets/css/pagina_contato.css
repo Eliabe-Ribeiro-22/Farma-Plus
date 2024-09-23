@@ -1,0 +1,20 @@
+#section_pagina_contato{
+	background: white;
+	width: 100vw;
+
+	margin: 3rem 0px;
+}
+
+#section_pagina_contato p{
+	color: grey;
+	font-weight: bold;
+}
+
+#section_pagina_contato iframe{
+	width: 80vw;
+	height: 20rem;
+
+	margin: 30px 10vw;
+
+	border-radius: 10%;
+}

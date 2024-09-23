@@ -11,7 +11,14 @@
 /* Rodapé do site */
 @import "./footer.css";
 
-@import "pagina_historia.css";
+/* Páginas Externas */
+/* Página História */
+@import "./pagina_historia.css";
+
+/* Página Contato */
+@import "./pagina_contato.css";
+
+
 /* Globais */
 *{
 	margin: 0;
@@ -28,7 +35,7 @@ header .grid{
 	gap: 2.25rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
 	text-align: center;
 	font-family: "Verdana", "Arial", "sans-serif";
 }
