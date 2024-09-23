@@ -27,6 +27,7 @@
 
 /* Página Entre em Contato */
 @import "./contato.css";
+@import "./contato_form.css";
 
 /* Globais */
 *{
@@ -38,6 +39,12 @@
 body{
 	background-color: lightblue;
 }
+
+h2, h3, h4, h5, h6 {
+	text-align: center;
+	font-family: "Roboto", "Arial", "sans-serif";
+}
+
 
 
 /* Responsividade geral do site */

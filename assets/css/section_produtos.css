@@ -1,11 +1,5 @@
 
 /* Seção Produtos */
-h2, h3, h4, h5, h6 {
-	text-align: center;
-	font-family: "Roboto", "Arial", "sans-serif";
-}
-
-
 section > div#produtos-grid{
 	background-color: white;
 	display: grid;
