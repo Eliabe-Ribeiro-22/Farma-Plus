@@ -11,20 +11,15 @@ form fieldset{
 	border: 5px solid #2cf901;
 }
 
-form fieldset #form_title {
+form fieldset h3#form_title {
 	color: white;
 }
-
-
 
 form fieldset div{
 	width: 50%;
 
 	margin: 0px 25%;
 	margin-bottom: 2rem;
-	
-	justify-items: center;
-	justify-content: center;
 }
 
 
@@ -33,20 +28,32 @@ form fieldset label{
 	display: block;	
 }
 
-form fieldset input{
+form fieldset div input{
 	width: 100%;
 	padding: 10px;	
+
+	border-radius: 1rem;
 }
 
 form fieldset input#btn_enviar{
 	width: 50%;
 	height: 3rem;
+	
 	align-items: center;
+
 	margin: 0px 25%;
 	margin-bottom: 2rem;
 
-	background-color: lightgreen;
+	background: lightgreen;
 
 	cursor: pointer;
+
+	border-radius: 1rem;
 }
+
+form fieldset input#btn_enviar:hover{
+	background-color: yellow;
+}
+
+
 
