@@ -1,0 +1,56 @@
+form{
+	margin: 0px 10vw;
+	width: 80vw;
+	background: #ce9701;
+}
+
+form fieldset{
+border: 10px solid lightgreen;
+}
+
+form fieldset h3{
+	text-align: center;
+}
+form fieldset h3, form fieldset div label{
+	color: white;
+	font-family: "Arial", "Verdana", sans-serif;
+}
+
+form fieldset div{
+	width: 50%;
+	margin: 0px 25%;
+	margin-bottom: 2rem;
+}
+
+form fieldset div label{
+	display: block;
+}
+
+form fieldset div input{
+	width: 100%;
+	border-radius: 1rem;
+	padding: 10px;
+}
+
+form fieldset div textarea{
+	width: 100%;
+	border-radius: 1rem;
+}
+
+form fieldset input#enviar{
+	width: 50%;
+	height: 3rem;
+	margin: 0px 25%;
+
+	border-radius: 1rem;
+
+	margin-bottom: 2rem;
+
+	cursor: pointer;
+
+	background: lightgreen;
+}
+
+form fieldset input#enviar:hover{
+	background: yellow;
+}
