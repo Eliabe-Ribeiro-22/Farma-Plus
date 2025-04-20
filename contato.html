@@ -42,22 +42,22 @@
 			<p>TELEFONE: 049 9 9999-8888</p>
 			<p>Endereço. Rua 30 de Março, Bairo São Sebatião, Ponte Alta do Norte</p>	
 
-			<form method="GET" onsubmit="return valida_formulario()">
+			<form method="GET" onsubmit="return valida_formulario()" action="envio_formulario.html">
 				<fieldset>
 					<h3>PREENCHA O FORMULÁRIO</h3>
 					<div>
 						<label>Nome:</label>
-						<input type="text" name="nome" id="nome">
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
 					</div>
 					
 					<div>
 						<label>Telefone:</label>
-						<input type="text" name="telefone" id="telefone">	
+						<input type="text" name="telefone" id="telefone" placeholder="Digite seu telefone">	
 					</div>
 					
 					<div>
-						<label>Recado:</label>
-						<textarea rows="6" id="recado"></textarea>	
+						<label>Email:</label>
+						<input type="email" name="email" placeholder="Digite seu email">
 					</div>
 					
 					<input type="submit" name="enviar" value="Enviar" id="enviar">

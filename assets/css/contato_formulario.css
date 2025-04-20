@@ -1,0 +1,44 @@
+form{
+	width: 80vw;
+	margin: 0 10vw;
+	
+	background: #e69c00;
+}
+
+form fieldset{
+	border: 7px solid lightgreen;
+}
+
+form h3{
+	color:white;
+}
+
+form div{
+	width: 50%;
+	margin: 1rem 25%;
+	
+}
+
+form label{
+	display: block;
+}
+
+form div input{
+	width: 100%;
+	border: 10px double black;
+	border-radius: 1rem;
+	fonr-size: 1rem;
+	padding: 10px;
+}
+form input#enviar{
+	background: lightgreen;
+	margin: 0 25%;
+	width: 50%;
+	height: 5rem;
+	cursor: pointer;
+	border-radius: 1rem;
+}
+
+form input#enviar:hover{
+	background: yellow;
+}
