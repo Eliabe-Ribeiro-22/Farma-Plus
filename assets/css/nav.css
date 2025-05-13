@@ -40,9 +40,6 @@ div.logo_farmacia{
 nav div.menu-left{
 	display: none;
 }
-.icon-menu{
-	background: red;
-}
 
 .icon-x{
 	display: none;
@@ -65,7 +62,6 @@ nav div.menu-left{
 	}
 
 	nav div ul{
-		background: red;
 		height: 100%;
 		display: flex;
 		align-items: center;
@@ -88,10 +84,5 @@ nav div.menu-left{
 	}
 }
 
-
-}
-
-@media screen and (min-width: 1024px){
-	
 
 }
