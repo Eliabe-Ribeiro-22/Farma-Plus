@@ -26,10 +26,21 @@ div.logo_farmacia{
 
 
 /* Nav - Menu de botões*/
+nav div ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: "Verdana", "sans-serif", "Arial";
+	font-weight: bold;
+}
+
+nav div ul li a:hover{
+	color: blue;
+}
+
+/* menu hamburguer estiver habilitado*/
 .hamburguer-right{
 	width: 100vw;
 	height: 100px;
-
 	display: flex;
 	cursor: pointer;
 	
@@ -37,13 +48,69 @@ div.logo_farmacia{
 	justify-content: center;
 }
 
-nav div.menu-left{
-	display: none;
+/* botões de menu estarão ocultos*/
+/*responsivo*/
+nav ul li{
+	text-align: center;
+}
+nav .menu ul{
+  display: none;
 }
 
-.icon-x{
-	display: none;
+nav .menu{
+  opacity: 0;
+  visibility: hidden;
+  left: 12rem;
+  transition: 0.3s;
 }
+
+nav.show .menu{
+  opacity:1;
+  visibility: visible;
+  background: #fff9f9;
+  height: 100vh; 
+  width: 100vw;
+  position:fixed;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-content: center;
+}
+
+nav.show .menu ul{
+  display: grid;
+}
+
+.hamburguer{
+	width: 100%;
+	display: flex;
+}
+
+.icon-menu{
+	align-content: center;
+	margin-left: 80%;
+
+}
+/* abrir Menu */
+
+.toggle{
+  font-size: 2rem;
+  color: var(--color-secondary);
+  cursor: pointer;
+}
+
+nav .icon-x{
+  visibility: hidden;
+  opacity: 0;
+  position:absolute;
+  right: 1.5rem;
+}
+
+nav.show div.icon-x{
+  visibility: visible;
+  opacity:1;
+}
+	
 
 @media screen and (min-width: 500px){
 	nav{
@@ -57,7 +124,7 @@ nav div.menu-left{
 		visibility: hidden;
 	}
 
-	nav div.menu-left{
+	nav .menu-left{
 		display: flex;
 	}
 
@@ -70,19 +137,5 @@ nav div.menu-left{
 
 	nav div ul li{
 		margin: 0px 20px;
-	}
-	
-	nav div ul li a{
-		text-decoration: none;
-		color: black;
-		font-family: "Verdana", "sans-serif", "Arial";
-		font-weight: bold;
-	}
-
-	nav div ul li a:hover{
-	color: blue;
-	}
-}
-
-
+	}	
 }
